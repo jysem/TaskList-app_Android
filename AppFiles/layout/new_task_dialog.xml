@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/titleNewTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGrey"
+        android:text="@string/dialogTitle1"
+        style="@style/DialogHeadLine"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:minHeight="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorDarkRed">
+
+        <TextView
+            android:id="@+id/formDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDate"
+            style="@style/DialogWindowTxt"/>
+
+        <EditText
+            android:id="@+id/editText_new_date"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edit_text"
+            android:hint="dd.mm.yyyy" />
+
+        <TextView
+            android:id="@+id/formTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTitle"
+            style="@style/DialogWindowTxt"/>
+
+        <EditText
+            android:id="@+id/editText_new_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edit_text"
+            android:hint="text" />
+        <TextView
+            android:id="@+id/formBrief"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBrief"
+            style="@style/DialogWindowTxt"/>
+        <EditText
+            android:id="@+id/editText_new_brief"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edit_text"
+            android:hint="text"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btn_Submit"
+                android:text="@string/txtSubmit"
+                android:background="@drawable/main_btn"
+                style="@style/MainButton"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btn_Cancel"
+                android:text="@string/txtCancel"
+                android:background="@drawable/main_btn"
+                style="@style/MainButton"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

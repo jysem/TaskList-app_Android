@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TaskList-App</string>
+    <string name="btnNewTask">New Task</string>
+    <string name="spnSort">Sort</string>
+
+    // DIALOG STRINGS
+    <string name="txtDate">Date</string>
+    <string name="txtTitle">Title</string>
+    <string name="txtBrief">More Info</string>
+    <string name="txtSubmit">Submit</string>
+    <string name="txtUpdate">Update</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtEdit">Edit</string>
+    <string name="dialogTitle1">Add New Task</string>
+    <string name="dialogTitle2">Edit Task</string>
+
+    // SORT MENU STRING ARRAY
+    <string-array name="sortMenu">
+        <item>Sort</item>
+        <item>By Date</item>
+        <item>By Alphabet</item>
+    </string-array>
+
+</resources>

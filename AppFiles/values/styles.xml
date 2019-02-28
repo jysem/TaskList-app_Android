@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorDarkGrey</item>
+    </style>
+
+    <style name="MainButton">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListHeader">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    <style name="ListTitle">
+        <item name="android:textColor">#b4b4b4</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="DialogWindowTxt">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DialogHeadLine">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
