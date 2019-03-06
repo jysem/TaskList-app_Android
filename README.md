@@ -1,6 +1,6 @@
 # TaskList app for Android
 
-This app was part of Android Programming course\
+This simple Task List app was part of Android Programming course\
 Idea was to desing TaskList app that stores inserted tasks into SQLdatabase\
 and it can be sorted by date or by alphabet to user view. And it had to have Edit, Delete and New Task functions
 
